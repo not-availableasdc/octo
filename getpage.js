@@ -27,7 +27,7 @@ function loadpage()
 	let gamelink = getCookie("loadgamelink");
 	let framewidth = (window.innerWidth/100)*98;
 	let frameheight = window.innerHeight-5;
-	window.document.title="Eternal Hub";
+	window.document.title="whatever you want here";
 	var iframe = document.createElement('iframe');
 	iframe.width = framewidth;
 	iframe.height = frameheight;
